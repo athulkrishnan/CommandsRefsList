@@ -1,20 +1,23 @@
-# References
+##### References
+<br>
+
+**Azure Commands:**
+
+- Add git remote
+`git remote add azure https://username@needsmoregit.scm.azurewebsites.net:443/NeedsMoreGit.git`
+
+- Push to Azure
+`git push azure master`
 
 
-Azure Commands:
 
-git remote add azure https://username@needsmoregit.scm.azurewebsites.net:443/NeedsMoreGit.git
-
-git push azure master
-
-
-Change heorku remote:
+**Heroku Commands:**
 
 - Remove old remote:
-git remote rm heroku
+`git remote rm heroku`
 
 - Add new remote:
-heroku git:remote -a appname
+`heroku git:remote -a appname`
 
--Clone Heroku App:
-heroku git:clone -a theirapp
+- Clone Heroku App:
+`heroku git:clone -a theirapp`
