@@ -1,7 +1,7 @@
 ##### References
 <br>
 
-**Azure Commands:**
+**Windows Azure Commands:**
 
 - Add git remote
 `git remote add azure https://username@needsmoregit.scm.azurewebsites.net:443/NeedsMoreGit.git`
